@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Welcome to Github</title>
+        <title> Udemy Login</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Registration Form</h1>
         <form>
-            <h4>enter your name</h4>
+            <h4>Fill The Form</h4>
             <label for="username">Username</label>
             <input type="text" name="username">
+            <label for="email">Email</label>
+            <input type="text" name="email">
             <label for="password">Password</label>
             <input type="password" name="password"> 
+            <br>
+            <h4>Select The State</h4>
+            <label for="state">State</label>
+        <select name="state" id="state">
+            <option value="kerala">Kerala</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="UP">UP</option>
+            <option value="Gujarat">Gujarat</option>
+        </select>
             <h4>Chooose the Language</h4>
             <input type="radio" name="fav_language" value="Python">
             <label for="python" style="color: blue;">Python</label><br>
@@ -30,8 +41,19 @@
             <input type="radio" name="fav_language" value="Female">
             <label for="female" style="color: red;">Female</label>
         </form>
-        <h3 > <a href="https://javascript.info/intro"><input type="submit"></a></h3>
+        <h4>Address</h4>
+        <textarea name="address" id="address" rows="10" cols="30"></textarea>
+        <h4>Uplod file</h4>
+        <label for="file">Upload File</label>
+        <input type="file" name="file" id="file">
+        <h4>Upload Video</h4>
+        <video width="300",height="300" controls>
+         <source src="d:\331642194_240365678702106_7015358338054371483_n.mp4">
+        </video>
+        <h3 > <a href="home.html"><input type="submit"></a></h3>
+
         
+
         
     </body>
     
